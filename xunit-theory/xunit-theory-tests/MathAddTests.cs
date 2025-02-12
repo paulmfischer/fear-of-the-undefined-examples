@@ -64,9 +64,9 @@ public class MathAddTests
   {
     public static IEnumerable<object[]> TestData()
     {
-      yield return new object[] { 1, 2, 3, 6 };
-      yield return new object[] { 1, null, 3, 4 };
-      yield return new object[] { 1, null, null, 1 };
+      yield return [1, 2, 3, 6];
+      yield return [1, null, 3, 4];
+      yield return [1, null, null, 1];
     }
   }
   
